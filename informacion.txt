@@ -1,0 +1,23 @@
+Explicación del código:
+Estructura HTML:
+
+Se crea una interfaz básica con campos de entrada para agregar y actualizar productos, junto con un botón para eliminar productos sin stock.
+Se utiliza una tabla para mostrar los productos en el inventario.
+JavaScript:
+
+Se utiliza un objeto inventario para almacenar los productos y sus cantidades.
+Funciones:
+agregarProducto(): Agrega un producto al inventario, validando la entrada.
+mostrarProductos(): Muestra todos los productos en la tabla, alertando si el inventario está vacío.
+actualizarProducto(): Actualiza la cantidad de un producto existente.
+eliminarSinStock(): Elimina los productos que tienen cantidad cero o menor.
+Interacción:
+
+Los botones llaman a las funciones correspondientes al hacer clic, y la interfaz se actualiza en función de las acciones del usuario.
+Puedes copiar y pegar este código en un archivo .html y abrirlo en tu navegador para probarlo. ¿Te gustaría hacer alguna modificación o necesitas ayuda adicional?
+
+
+
+
+
+
